@@ -11,7 +11,7 @@ post-implementation revisions.
 
 | Project | Purpose | Status |
 | --- | --- | --- |
-| `go-gateway-lab` | A clean-room Go API gateway built from first principles | Preparing |
+| [`go-gateway-lab`](https://github.com/adu-labs/go-gateway-lab) | A clean-room Go API gateway built from first principles | Public bootstrap |
 | `agent-execution-lab` | Executable labs for agent loops, tools, state, recovery, tracing, and evaluation | Preparing |
 | `task-aware-gateway` | A task-aware AI/Agent gateway for model and tool traffic | Researching |
 
