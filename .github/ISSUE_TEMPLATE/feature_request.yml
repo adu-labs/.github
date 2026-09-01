@@ -1,0 +1,58 @@
+name: Feature request
+description: Propose a scoped capability based on a concrete problem
+title: "proposal: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the user or system problem without prescribing a solution.
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: Who experiences it?
+      description: Name the user, operator, contributor, or dependent system.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and non-goals
+      description: Include correctness, compatibility, performance, security, and scope boundaries.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Provide a synthetic reproduction, public reference, or measured example.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What existing feature, workaround, or external project could solve it?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List observable conditions that would make this complete.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched existing issues and documentation.
+          required: true
+        - label: This proposal contains no confidential or employer-owned material.
+          required: true
